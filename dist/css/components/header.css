@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  height: 310px; }
+  height: 369px; }
   header marquee {
     display: block;
     width: 100%;
@@ -36,5 +36,5 @@ header {
           background: url("../img/minecraft_chest.png") no-repeat center bottom/120px; }
   header .decorative-ending {
     width: 100%;
-    height: 85px;
-    background: url("../img/bg_grass.jpg") repeat-x top left/48px, url("../img/bg_dirt.jpg") repeat-x bottom left/48px; }
+    height: 144px;
+    background: url("../img/bg_grass.jpg") repeat-x top left/48px, url("../img/bg_dirt.jpg") repeat-x top 48px left/48px, url("../img/bg_dirt_stone.jpg") repeat-x top 96px left 64px/432px; }

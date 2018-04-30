@@ -1,3 +1,13 @@
 @import 'styles';
 @import 'components/header';
 @import 'components/main';
+@import 'components/card';
+
+.hobbies {
+  width: calc(66.6% - 30px);
+}
+
+.favorite-websites {
+  width: calc(33.3% - 30px); 
+}
+
