@@ -1,4 +1,4 @@
-@import 'styles';
+@import 'config';
 @import 'components/header';
 @import 'components/main';
 @import 'components/card';
@@ -8,6 +8,18 @@
 }
 
 .favorite-websites {
-  width: calc(33.3% - 30px); 
+  width: calc(33.3% - 30px);
+
+  a {
+    text-decoration: none;
+  }
 }
+
+.news {
+  li {
+    
+  }
+}
+
+@import 'components/footer';
 

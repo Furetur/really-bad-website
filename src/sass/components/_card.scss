@@ -1,0 +1,33 @@
+.card {
+  margin: 15px;
+  padding: 10px 20px;
+  background: linear-gradient($card_filter_color, $card_filter_color), $img_planks repeat top left / 128px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #000;
+  font-family: 'Minecraft Regular';
+
+  
+  
+  h2 {
+    line-height: 33px;
+    margin-top: 19px;
+    margin-bottom: 0;
+  }
+
+  ul {
+    margin-top: 0;
+
+    li {
+      min-height: 24px;
+      margin-top: 8px;
+      margin-bottom: 0px;
+      
+      p {
+        margin-top: 6px;
+        margin-bottom: 0px;
+        line-height: 32px;
+      }
+    }
+  }
+}

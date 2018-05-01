@@ -1,0 +1,34 @@
+$img_clouds: url("../img/bg_clouds.png");
+$img_chest_closed: url("../img/minecraft_chest.png");
+
+$img_grass: url("../img/bg_grass.jpg");
+$img_grass_top: url("../img/bg_grass_top.jpg");
+$img_dirt: url("../img/bg_dirt.jpg");
+$img_stone: url("../img/bg_stone.jpg");
+$img_dirt_with_stone: url("../img/bg_dirt_stone.jpg");
+$img_planks: url("../img/bg_planks.png");
+$img_bedrock: url("../img/bg_bedrock.png");
+
+$img_void: url("../img/bg_void.png");
+
+$card_filter_color: rgba(#ffffff, 0.15);
+
+@font-face {
+  font-family: 'Minecraft Regular';
+  src: url("../fonts/minecraft_font.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
