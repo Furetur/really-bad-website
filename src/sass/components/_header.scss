@@ -8,13 +8,13 @@ header {
     height: 80px;
     font-size: 3.5em;
     color: #c3dcf0;
-    background: #8FBFE9 $img_clouds no-repeat center -35px;
+    background: #8FBFE9 $clouds no-repeat center -35px;
   }
 
   nav {
     width: 100%;
     height: 145px;
-    background: #8FBFE9 $img_grass_top repeat-x bottom left / 48px;
+    background: #8FBFE9 $grass_top repeat-x bottom left / 48px;
 
     ul {
       display: flex;
@@ -40,7 +40,7 @@ header {
           font-family: 'Minecraft Regular';
           text-decoration: none;
           color: white;
-          background: $img_chest_closed no-repeat center bottom/120px;
+          background: $chest_closed no-repeat center bottom/120px;
         }
       }
     }
@@ -49,9 +49,9 @@ header {
   .decorative-ending {
     width: 100%;
     height: 144px;
-    background: $img_grass repeat-x top left / 48px,
-      $img_dirt repeat-x top 48px left / 48px,
-      $img_dirt_with_stone repeat-x top 96px left 64px / 432px;
+    background: $grass repeat-x top left / 49px,
+      $dirt repeat-x top 48px left / 49px,
+      $mix_dirt_stone_1 repeat-x top 96px left / 573px;
   }
 
 

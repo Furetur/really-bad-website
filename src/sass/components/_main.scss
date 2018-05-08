@@ -4,8 +4,23 @@ main {
   width: 100%;
   margin: auto;
   padding-top: 10px;
+  padding-bottom: 280px;
   background:
-    url("../img/bg_stone.jpg") repeat top left / 48px; 
+    $ore_coal_4 no-repeat top 240px left 30% / 96px,
+    $ore_coal_3 no-repeat top 144px left 66% / 96px,
+    $ore_coal_3 no-repeat top 672px left 80% / 96px,
+    $ore_iron_3 no-repeat top 666px left 40% / 96px,
+    $ore_iron_4 no-repeat top 240px left 94% / 96px,
+    $mix_dirt_stone_2 repeat-x top left / 573px,
+    $mix_bedrock_transparent repeat-x bottom left 100px / 1536px,
+    $mix_stone_big repeat-x bottom 144px left / 1920px,
+    $lava repeat-x bottom 240px left / 48px,
+    $lava repeat-x bottom 192px left / 48px,
+    $lava repeat-x bottom 144px left / 48px,
+    $lava repeat-x bottom 96px left / 48px,
+    $lava repeat-x bottom 48px left / 48px,
+    $lava repeat-x bottom left / 48px,
+    $stone repeat top left / 48px; 
 
   
 }

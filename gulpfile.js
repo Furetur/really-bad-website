@@ -9,7 +9,7 @@ gulp.task('copy-images', () => {
 });
 
 gulp.task('copy-images:watch', () => {
-  return gulp.watch('./src/img/*', ['copy-images']);
+  return gulp.watch('./src/img/**/*', ['copy-images']);
 });
 
 gulp.task('html', () => {
