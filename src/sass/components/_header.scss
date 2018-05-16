@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  height: 369px;
+  //height: 369px;
 
   marquee {
     display: block;
@@ -13,34 +13,80 @@ header {
 
   nav {
     width: 100%;
-    height: 145px;
+    height: 120px;
+    padding-top: 15px;
     background: #8FBFE9 $grass_top repeat-x bottom left / 48px;
+
+    @media screen and (min-width: 500px) {
+      height: 150px;
+      padding-top: 30px;
+    }
+
+    @media screen and (min-width: 800px){
+      height: 200px;
+      padding-top: 65px;
+    }
+
+    @media screen and (min-width: 1000px){
+      height: 174px;
+      padding-top: 20px;
+    }
 
     ul {
       display: flex;
       width: 100%;
-      height: 100%;
+      //height: 100px;
       list-style-type: none;
       margin: 0;
-      padding: 0 15% 0 15%;
+      padding: 0 1%;
+
+      @media screen and (min-width: 1000px) {
+        width: 965.3px;
+        margin: auto;
+      }
 
       li {
-        width: 25%;
-        height: 100%;
+        width: 100%;
+        //height: 100%;
         
 
         a {
           display: block;
-          width: 50%;
-          height: 100%;
+          width: 100%;
+          height: 100px;
           margin: auto;
-          padding-top: 102px;
+          padding-top: 70px;
           text-align: center;
-          font-size: 1.15em;
+          font-size: .85em;
           font-family: 'Minecraft Regular';
           text-decoration: none;
           color: white;
-          background: $chest_closed no-repeat center bottom/120px;
+          background: $chest_closed no-repeat center bottom/80px;
+
+          span {
+            vertical-align: bottom;
+          }
+
+          @media screen and (min-width: 500px) {
+            height: 115px;
+            font-size: 1em;
+            padding-top: 80px;
+            background: $chest_closed no-repeat center bottom/100px;
+          }
+
+          @media screen and (min-width: 800px) {
+            height: 130px;
+            font-size: 1em;
+            padding-top: 90px;
+            background: $chest_closed no-repeat center bottom/110px;
+          }
+
+          @media screen and (min-width: 1000px) {
+            height: 150px;
+            font-size: 1.1em;
+            padding-top: 110px;
+            background: $chest_closed no-repeat center bottom/130px;
+          }
         }
       }
     }
@@ -48,11 +94,20 @@ header {
 
   .decorative-ending {
     width: 100%;
-    height: 144px;
+    height: 97px;
     background: $grass repeat-x top left / 49px,
       $dirt repeat-x top 48px left / 49px,
-      $mix_dirt_stone_1 repeat-x top 96px left / 573px;
+      //$mix_dirt_stone_1 repeat-x top 96px left / 573px;
   }
-
-
 }
+
+@media screen and (min-width: 580px) {
+  nav {
+    a {
+      font-size: 1em;
+      background: $chest_closed no-repeat center bottom/100px;
+    }
+  }
+}
+
+

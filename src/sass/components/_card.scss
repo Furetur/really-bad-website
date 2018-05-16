@@ -1,6 +1,7 @@
 .card {
   margin: 15px;
-  padding: 10px 20px;
+  padding: 10px 15px;
+  padding-right: 10px;
   background: linear-gradient($card_filter_color, $card_filter_color),
     $planks repeat top left / 128px;
   border-radius: 3px;
@@ -18,6 +19,7 @@
 
   ul {
     margin-top: 0;
+    padding-left: 30px;
 
     li {
       min-height: 24px;
@@ -25,11 +27,13 @@
       margin-bottom: 0px;
 
       h3 {
+        font-size: 1em;
         margin-top: -8px;
         line-height: 32px;
       }
       
       p {
+        font-size: .9em;
         margin-top: 0px;
         margin-bottom: 0px;
         line-height: 32px;
