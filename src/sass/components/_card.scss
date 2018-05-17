@@ -9,7 +9,20 @@
   color: #000;
   font-family: 'Minecraft Regular';
 
-  
+  .card-pic {
+    position: relative;
+    margin: -10px -15px;
+    margin-right: -10px;
+    
+
+    span {
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+      font-size: 2em;
+      color: white;
+    }
+  }
   
   h2 {
     line-height: 33px;

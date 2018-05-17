@@ -38,5 +38,5 @@ gulp.task('serve', ['default', 'html:watch', 'sass:watch', 'copy-images:watch'],
   browserSync.init({
     server: 'dist/',
   });
-  gulp.watch('src/**/*.html').on('change', browserSync.reload);
+  gulp.watch('src/**/*').on('change', browserSync.reload);
 })

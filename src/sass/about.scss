@@ -1,0 +1,65 @@
+@import 'config';
+@import 'components/header';
+@import 'components/main';
+@import 'components/card';
+
+
+aside {
+    width: calc(33.3% - 30px);
+    margin: 0 15px;
+}
+
+.profile {
+    width: 100%;
+    
+    .card-pic {
+        height: 300px;
+        border-radius: 3px;
+        background: $profile_pic no-repeat top left / cover;
+    }
+
+    .card-pic:hover {
+        background: #fff $profile_pic_anime no-repeat center / 70%;
+    }
+}
+
+.profile:hover {
+    
+    .card-pic {
+        background: #fff $profile_pic_anime no-repeat center / 70%;
+    }
+
+    .pic-text {
+        color: black;
+    }
+}
+
+.review {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: $wool repeat top left / 48px;
+    color: white;
+
+    h3 {
+        width: 60%;
+        margin-top: 10px;
+        font-size: 1.17em;
+    }
+
+    .rating {
+        width: 30%;
+        margin-top: 8px;
+        font-size: 1.17em;
+        text-align: right;
+    }
+}
+
+.resume {
+    width: calc(66.6% - 30px);
+    background: linear-gradient($card_filter_color, $card_filter_color),
+    $cobblestone repeat top left / 128px;
+}
+
+
+@import 'components/footer';

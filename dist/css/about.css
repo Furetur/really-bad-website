@@ -151,53 +151,44 @@ main {
         margin-bottom: 0px;
         line-height: 32px; }
 
-.hobbies {
-  width: 100%; }
-  @media screen and (min-width: 800px) {
-    .hobbies {
-      width: calc(55% - 30px); } }
-  @media screen and (min-width: 1000px) {
-    .hobbies {
-      width: calc(66.6% - 30px); } }
-  .hobbies ul {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    padding-left: 0px;
-    list-style-type: none; }
-    .hobbies ul li {
-      width: 50%; }
-      .hobbies ul li img {
-        display: block;
-        width: 100px;
-        margin: auto;
-        border-radius: 25px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+aside {
+  width: calc(33.3% - 30px);
+  margin: 0 15px; }
 
-.favorite-websites {
+.profile {
   width: 100%; }
-  @media screen and (min-width: 800px) {
-    .favorite-websites {
-      width: calc(45% - 30px); } }
-  @media screen and (min-width: 1000px) {
-    .favorite-websites {
-      width: calc(33.3% - 30px); } }
-  .favorite-websites a {
-    text-decoration: none; }
+  .profile .card-pic {
+    height: 300px;
+    border-radius: 3px;
+    background: url("../img/misc/profile_pic.jpg") no-repeat top left/cover; }
+  .profile .card-pic:hover {
+    background: #fff url("../img/misc/profile_pic_anime.jpg") no-repeat center/70%; }
 
-.news {
-  width: 100%; }
-  @media screen and (min-width: 1000px) {
-    .news {
-      width: calc(50% - 30px); } }
+.profile:hover .card-pic {
+  background: #fff url("../img/misc/profile_pic_anime.jpg") no-repeat center/70%; }
 
-#diamond {
-  position: relative;
-  bottom: 192px;
-  left: 154px;
-  width: 48px;
-  height: 48px;
-  background: url("../img/blocks/ores/bg_diamond.gif") no-repeat top left/48px; }
+.profile:hover .pic-text {
+  color: black; }
+
+.review {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: url("../img/blocks/main/bg_wool.png") repeat top left/48px;
+  color: white; }
+  .review h3 {
+    width: 60%;
+    margin-top: 10px;
+    font-size: 1.17em; }
+  .review .rating {
+    width: 30%;
+    margin-top: 8px;
+    font-size: 1.17em;
+    text-align: right; }
+
+.resume {
+  width: calc(66.6% - 30px);
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("../img/blocks/main/bg_cobblestone.png") repeat top left/128px; }
 
 footer {
   width: 100%;
