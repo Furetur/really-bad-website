@@ -11,8 +11,10 @@ main {
     $ore_iron_3 no-repeat top 666px left 40% / 96px,
     $ore_iron_4 no-repeat top 240px left 94% / 96px,
     // mixes
-    $mix_dirt_stone_1 repeat-x top left / 573px,
-    $mix_dirt_stone_2 repeat-x top 48px left / 573px,
+    url("../img/bg_1.png") repeat-x top left / 1920px,
+    $dirt repeat-x top left / 48px,
+    $dirt repeat-x top 48px left / 48px,
+    $dirt repeat-x top 96px left / 48px,
     $mix_bedrock_transparent repeat-x bottom left 100px / 1536px,
     $mix_stone_big repeat-x bottom 142px left 101px / 1920px,
     // blocks

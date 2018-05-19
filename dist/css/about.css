@@ -23,12 +23,12 @@ header {
     height: 80px;
     font-size: 3.5em;
     color: #c3dcf0;
-    background: #8FBFE9 url("../img/env/bg_clouds.png") no-repeat center -35px; }
+    background: #8FBFE9 url("../img/bg_clouds.png") no-repeat center -35px; }
   header nav {
     width: 100%;
     height: 120px;
     padding-top: 15px;
-    background: #8FBFE9 url("../img/blocks/main/bg_grass_top.jpg") repeat-x bottom left/48px; }
+    background: #8FBFE9 url("../img/bg_grass_top.jpg") repeat-x bottom left/48px; }
     @media screen and (min-width: 500px) {
       header nav {
         height: 150px;
@@ -64,7 +64,7 @@ header {
           font-family: 'Minecraft Regular';
           text-decoration: none;
           color: white;
-          background: url("../img/blocks/main/minecraft_chest.png") no-repeat center bottom/80px; }
+          background: url("../img/minecraft_chest.png") no-repeat center bottom/80px; }
           header nav ul li a span {
             vertical-align: bottom; }
           @media screen and (min-width: 500px) {
@@ -72,35 +72,35 @@ header {
               height: 115px;
               font-size: 1em;
               padding-top: 80px;
-              background: url("../img/blocks/main/minecraft_chest.png") no-repeat center bottom/100px; } }
+              background: url("../img/minecraft_chest.png") no-repeat center bottom/100px; } }
           @media screen and (min-width: 800px) {
             header nav ul li a {
               height: 130px;
               font-size: 1em;
               padding-top: 90px;
-              background: url("../img/blocks/main/minecraft_chest.png") no-repeat center bottom/110px; } }
+              background: url("../img/minecraft_chest.png") no-repeat center bottom/110px; } }
           @media screen and (min-width: 1000px) {
             header nav ul li a {
               height: 150px;
               font-size: 1.1em;
               padding-top: 110px;
-              background: url("../img/blocks/main/minecraft_chest.png") no-repeat center bottom/130px; } }
+              background: url("../img/minecraft_chest.png") no-repeat center bottom/130px; } }
   header .decorative-ending {
     width: 100%;
-    height: 97px;
-    background: url("../img/blocks/main/bg_grass.jpg") repeat-x top left/49px, url("../img/blocks/main/bg_dirt.jpg") repeat-x top 48px left/49px; }
+    height: 96px;
+    background: url("../img/bg_grass.jpg") repeat-x top left/48px, url("../img/bg_dirt.jpg") repeat-x top 48px left/48px; }
 
 @media screen and (min-width: 580px) {
   nav a {
     font-size: 1em;
-    background: url("../img/blocks/main/minecraft_chest.png") no-repeat center bottom/100px; } }
+    background: url("../img/minecraft_chest.png") no-repeat center bottom/100px; } }
 
 main {
   width: 100%;
   margin: auto;
   padding-top: 0px;
   padding-bottom: 280px;
-  background: url("../img/blocks/ores/bg_coal_ore_4.jpg") no-repeat top 240px left 30%/96px, url("../img/blocks/ores/bg_coal_ore_3.png") no-repeat top 144px left 66%/96px, url("../img/blocks/ores/bg_coal_ore_3.png") no-repeat top 672px left 80%/96px, url("../img/blocks/ores/bg_iron_ore_3.png") no-repeat top 666px left 40%/96px, url("../img/blocks/ores/bg_iron_ore_4.png") no-repeat top 240px left 94%/96px, url("../img/blocks/mix/bg_mix_dirt_stone_1.jpg") repeat-x top left/573px, url("../img/blocks/mix/bg_mix_dirt_stone_2.jpg") repeat-x top 48px left/573px, url("../img/blocks/mix/bg_mix_bedrock_transparent.png") repeat-x bottom left 100px/1536px, url("../img/blocks/mix/bg_mix_stone_big.png") repeat-x bottom 142px left 101px/1920px, url("../img/blocks/main/lava.gif") repeat-x bottom 240px left/48px, url("../img/blocks/main/lava.gif") repeat-x bottom 192px left/48px, url("../img/blocks/main/lava.gif") repeat-x bottom 144px left/48px, url("../img/blocks/main/lava.gif") repeat-x bottom 96px left/48px, url("../img/blocks/main/lava.gif") repeat-x bottom 48px left/48px, url("../img/blocks/main/lava.gif") repeat-x bottom left/48px, url("../img/blocks/main/bg_stone.jpg") repeat top left/48px; }
+  background: url("../img/bg_coal_ore_4.jpg") no-repeat top 240px left 30%/96px, url("../img/bg_coal_ore_3.png") no-repeat top 144px left 66%/96px, url("../img/bg_coal_ore_3.png") no-repeat top 672px left 80%/96px, url("../img/bg_iron_ore_3.png") no-repeat top 666px left 40%/96px, url("../img/bg_iron_ore_4.png") no-repeat top 240px left 94%/96px, url("../img/bg_1.png") repeat-x top left/1920px, url("../img/bg_dirt.jpg") repeat-x top left/48px, url("../img/bg_dirt.jpg") repeat-x top 48px left/48px, url("../img/bg_dirt.jpg") repeat-x top 96px left/48px, url("../img/bg_mix_bedrock_transparent.png") repeat-x bottom left 100px/1536px, url("../img/bg_mix_stone_big.png") repeat-x bottom 142px left 101px/1920px, url("../img/lava.gif") repeat-x bottom 240px left/48px, url("../img/lava.gif") repeat-x bottom 192px left/48px, url("../img/lava.gif") repeat-x bottom 144px left/48px, url("../img/lava.gif") repeat-x bottom 96px left/48px, url("../img/lava.gif") repeat-x bottom 48px left/48px, url("../img/lava.gif") repeat-x bottom left/48px, url("../img/bg_stone.jpg") repeat top left/48px; }
   main .root {
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +115,7 @@ main {
   margin: 15px;
   padding: 10px 15px;
   padding-right: 10px;
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("../img/blocks/main/bg_planks.png") repeat top left/128px;
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("../img/bg_planks.png") repeat top left/128px;
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: #000;
@@ -160,12 +160,12 @@ aside {
   .profile .card-pic {
     height: 300px;
     border-radius: 3px;
-    background: url("../img/misc/profile_pic.jpg") no-repeat top left/cover; }
+    background: url("../img/profile_pic.jpg") no-repeat top left/cover; }
   .profile .card-pic:hover {
-    background: #fff url("../img/misc/profile_pic_anime.jpg") no-repeat center/70%; }
+    background: #fff url("../img/profile_pic_anime.jpg") no-repeat center/70%; }
 
 .profile:hover .card-pic {
-  background: #fff url("../img/misc/profile_pic_anime.jpg") no-repeat center/70%; }
+  background: #fff url("../img/profile_pic_anime.jpg") no-repeat center/70%; }
 
 .profile:hover .pic-text {
   color: black; }
@@ -174,7 +174,7 @@ aside {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  background: url("../img/blocks/main/bg_wool.png") repeat top left/48px;
+  background: url("../img/bg_wool.png") repeat top left/48px;
   color: white; }
   .review h3 {
     width: 60%;
@@ -188,9 +188,9 @@ aside {
 
 .resume {
   width: calc(66.6% - 30px);
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("../img/blocks/main/bg_cobblestone.png") repeat top left/128px; }
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("../img/bg_cobblestone.png") repeat top left/128px; }
 
 footer {
   width: 100%;
   height: 200px;
-  background: url("../img/blocks/main/bg_bedrock.png") repeat-x top left/48px, url("../img/env/bg_void.png") repeat-x top 48px left/200px; }
+  background: url("../img/bg_bedrock.png") repeat-x top left/48px, url("../img/bg_void.png") repeat-x top 48px left/200px; }

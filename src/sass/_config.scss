@@ -1,50 +1,42 @@
 // paths
 $img_path: "../img/";
 
-$blocks_path: $img_path + "blocks/";
-$mix_path: $blocks_path + "mix/";
-$ore_path: $blocks_path + "ores/";
-$main_path: $blocks_path + "main/";
-
-$env_path: $img_path + "env/";
-$misc_path: $img_path + "misc/";
-
 // env
-$clouds: url($env_path + "bg_clouds.png");
-$void: url($env_path + "bg_void.png");
+$clouds: url($img_path + "bg_clouds.png");
+$void: url($img_path + "bg_void.png");
 
 // main blocks
-$chest_closed: url($main_path + "minecraft_chest.png");
-$grass: url($main_path + "bg_grass.jpg");
-$grass_top: url($main_path + "bg_grass_top.jpg");
-$dirt: url($main_path + "bg_dirt.jpg");
-$stone: url($main_path + "bg_stone.jpg");
-$cobblestone: url($main_path + "bg_cobblestone.png");
-$planks: url($main_path + "bg_planks.png");
-$wool: url($main_path + "bg_wool.png");
-$bedrock: url($main_path + "bg_bedrock.png");
-$lava: url($main_path + "lava.gif");
+$chest_closed: url($img_path + "minecraft_chest.png");
+$grass: url($img_path + "bg_grass.jpg");
+$grass_top: url($img_path + "bg_grass_top.jpg");
+$dirt: url($img_path + "bg_dirt.jpg");
+$stone: url($img_path + "bg_stone.jpg");
+$cobblestone: url($img_path + "bg_cobblestone.png");
+$planks: url($img_path + "bg_planks.png");
+$wool: url($img_path + "bg_wool.png");
+$bedrock: url($img_path + "bg_bedrock.png");
+$lava: url($img_path + "lava.gif");
 
 // mixs
-$mix_dirt_stone_1: url($mix_path + "bg_mix_dirt_stone_1.jpg");
-$mix_dirt_stone_2: url($mix_path + "bg_mix_dirt_stone_2.jpg");
-$mix_bedrock_transparent: url($mix_path + "bg_mix_bedrock_transparent.png");
-$mix_stone: url($mix_path + "bg_mix_stone.png");
-$mix_stone_big: url($mix_path + "bg_mix_stone_big.png");
+$mix_dirt_stone_1: url($img_path + "bg_mix_dirt_stone_1.jpg");
+$mix_dirt_stone_2: url($img_path + "bg_mix_dirt_stone_2.jpg");
+$mix_bedrock_transparent: url($img_path + "bg_mix_bedrock_transparent.png");
+$mix_stone: url($img_path + "bg_mix_stone.png");
+$mix_stone_big: url($img_path + "bg_mix_stone_big.png");
 
 // ores
-$ore_coal_3: url($ore_path + "bg_coal_ore_3.png");
-$ore_coal_4: url($ore_path + "bg_coal_ore_4.jpg");
-$ore_iron_3: url($ore_path + "bg_iron_ore_3.png");
-$ore_iron_4: url($ore_path + "bg_iron_ore_4.png");
-$ore_diamond: url($ore_path + "bg_diamond.gif");
+$ore_coal_3: url($img_path + "bg_coal_ore_3.png");
+$ore_coal_4: url($img_path + "bg_coal_ore_4.jpg");
+$ore_iron_3: url($img_path + "bg_iron_ore_3.png");
+$ore_iron_4: url($img_path + "bg_iron_ore_4.png");
+$ore_diamond: url($img_path + "bg_diamond.gif");
 
 // non-images
 $card_filter_color: rgba(#ffffff, 0.25);
 
 // misc
-$profile_pic: url($misc_path + "profile_pic.jpg");
-$profile_pic_anime: url($misc_path + "profile_pic_anime.jpg");
+$profile_pic: url($img_path + "profile_pic.jpg");
+$profile_pic_anime: url($img_path + "profile_pic_anime.jpg");
 
 
 @font-face {

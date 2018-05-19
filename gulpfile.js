@@ -5,14 +5,6 @@ const browserSync = require('browser-sync').create();
 
 const gm = require('gulp-gm');
 
-gulp.task('copy-images', () => {
-  return gulp.src('./src/img/*')
-    .pipe(gulp.dest('./dist/img'));
-});
-
-gulp.task('copy-images:watch', () => {
-  return gulp.watch('./src/img/**/*', ['copy-images']);
-});
 
 gulp.task('html', () => {
   return gulp.src('./src/**/*.html')
@@ -34,9 +26,9 @@ gulp.task('sass:watch', () => {
   return gulp.watch('./src/sass/**/*.scss', ['sass']);
 });
 
-gulp.task('default', ['html', 'sass', 'copy-images']);
+gulp.task('default', ['html', 'sass']);
 
-gulp.task('serve', ['default', 'html:watch', 'sass:watch', 'copy-images:watch'], () => {
+gulp.task('serve', ['default', 'html:watch', 'sass:watch'], () => {
   browserSync.init({
     server: 'dist/',
   });
