@@ -13,5 +13,9 @@
     "browser-sync": "^2.23.7",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "event-stream": "^3.3.4",
+    "gulp-gm": "0.0.9"
   }
 }
