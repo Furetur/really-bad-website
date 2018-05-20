@@ -100,7 +100,7 @@ main {
   margin: auto;
   padding-top: 0px;
   padding-bottom: 280px;
-  background: url("../img/bg_coal_ore_4.jpg") no-repeat top 240px left 30%/96px, url("../img/bg_coal_ore_3.png") no-repeat top 144px left 66%/96px, url("../img/bg_coal_ore_3.png") no-repeat top 672px left 80%/96px, url("../img/bg_iron_ore_3.png") no-repeat top 666px left 40%/96px, url("../img/bg_iron_ore_4.png") no-repeat top 240px left 94%/96px, url("../img/bg_1.png") repeat-x top left/1920px, url("../img/bg_dirt.jpg") repeat-x top left/48px, url("../img/bg_dirt.jpg") repeat-x top 48px left/48px, url("../img/bg_dirt.jpg") repeat-x top 96px left/48px, url("../img/bg_mix_bedrock_transparent.png") repeat-x bottom left 100px/1536px, url("../img/bg_mix_stone_big.png") repeat-x bottom 142px left 101px/1920px, url("../img/lava.gif") repeat-x bottom 240px left/48px, url("../img/lava.gif") repeat-x bottom 192px left/48px, url("../img/lava.gif") repeat-x bottom 144px left/48px, url("../img/lava.gif") repeat-x bottom 96px left/48px, url("../img/lava.gif") repeat-x bottom 48px left/48px, url("../img/lava.gif") repeat-x bottom left/48px, url("../img/bg_stone.jpg") repeat top left/48px; }
+  background: url("../img/bg_coal_ore_4.jpg") no-repeat top 240px left 30%/96px, url("../img/bg_coal_ore_3.png") no-repeat top 144px left 66%/96px, url("../img/bg_coal_ore_3.png") no-repeat top 672px left 80%/96px, url("../img/bg_iron_ore_3.png") no-repeat top 666px left 40%/96px, url("../img/bg_iron_ore_4.png") no-repeat top 240px left 94%/96px, url("../img/bg_1.png") repeat-x top left/1920px, url("../img/bg_dirt.jpg") repeat-x top left/48px, url("../img/bg_dirt.jpg") repeat-x top 48px left/48px, url("../img/bg_dirt.jpg") repeat-x top 96px left/48px, url("../img/bg_mix_bedrock_transparent.png") repeat-x bottom left 432px/1920px, url("../img/bg_mix_stone_big.png") repeat-x bottom 142px left 101px/1920px, url("../img/lava.gif") repeat-x bottom 240px left/48px, url("../img/lava.gif") repeat-x bottom 192px left/48px, url("../img/lava.gif") repeat-x bottom 144px left/48px, url("../img/lava.gif") repeat-x bottom 96px left/48px, url("../img/lava.gif") repeat-x bottom 48px left/48px, url("../img/lava.gif") repeat-x bottom left/48px, url("../img/bg_stone.jpg") repeat top left/48px; }
   main .root {
     display: flex;
     flex-wrap: wrap;
@@ -151,16 +151,41 @@ main {
         margin-bottom: 0px;
         line-height: 32px; }
 
-aside {
-  width: calc(33.3% - 30px);
-  margin: 0 15px; }
+.side {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 15px;
+  padding: 0; }
+  @media screen and (min-width: 850px) {
+    .side {
+      width: calc(33.3% - 30px);
+      flex-direction: column; } }
+
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 15px;
+  padding: 0; }
+  @media screen and (min-width: 850px) {
+    .middle {
+      width: calc(66.6% - 30px); } }
 
 .profile {
-  width: 100%; }
+  width: 100%;
+  height: 300px;
+  background: #342c3d; }
+  @media screen and (min-width: 400px) {
+    .profile {
+      width: calc(50% - 30px); } }
+  @media screen and (min-width: 850px) {
+    .profile {
+      width: 100%; } }
   .profile .card-pic {
     height: 300px;
     border-radius: 3px;
-    background: url("../img/profile_pic.jpg") no-repeat top left/cover; }
+    background: url("../img/profile_pic.jpg") no-repeat center/cover; }
   .profile .card-pic:hover {
     background: #fff url("../img/profile_pic_anime.jpg") no-repeat center/70%; }
 
@@ -170,12 +195,75 @@ aside {
 .profile:hover .pic-text {
   color: black; }
 
+.info {
+  width: 100%;
+  background: url("../img/bg_sand.jpg") repeat top left/150px; }
+  @media screen and (min-width: 400px) and (max-width: 850px) {
+    .info {
+      width: calc(50% - 30px);
+      height: 300px; } }
+  @media screen and (min-width: 850px) {
+    .info {
+      width: 100%; } }
+  .info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0px; }
+    @media screen and (min-width: 400px) {
+      .info ul .less-important {
+        display: none; }
+      .info ul .moderately-important {
+        display: none; } }
+    @media screen and (min-width: 500px) {
+      .info ul .moderately-important {
+        display: list-item; } }
+    @media screen and (min-width: 600px) {
+      .info ul .less-important {
+        display: list-item; } }
+    .info ul li {
+      width: 50%; }
+      @media screen and (min-width: 400px) {
+        .info ul li {
+          width: 100%;
+          margin-top: 35px; } }
+      @media screen and (min-width: 500px) {
+        .info ul li {
+          width: 50%; } }
+      @media screen and (min-width: 600px) {
+        .info ul li {
+          width: 33.3%; } }
+      @media screen and (min-width: 850px) {
+        .info ul li {
+          width: 50%; } }
+      .info ul li .bait {
+        display: block;
+        height: 70px;
+        width: 70px;
+        margin: auto;
+        padding-top: 25px;
+        text-align: center;
+        color: white;
+        font-size: 1.3em;
+        border-radius: 50%;
+        background: #004D40;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+      .info ul li .text {
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        text-align: center; }
+
 .review {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   background: url("../img/bg_wool.png") repeat top left/48px;
   color: white; }
+  @media screen and (min-width: 600px) {
+    .review {
+      width: calc(50% - 30px); } }
   .review h3 {
     width: 60%;
     margin-top: 10px;
@@ -187,8 +275,25 @@ aside {
     text-align: right; }
 
 .resume {
-  width: calc(66.6% - 30px);
+  width: 100%;
+  padding-bottom: 15px;
   background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("../img/bg_cobblestone.png") repeat top left/128px; }
+  .resume table {
+    margin-top: 15px;
+    border-collapse: collapse;
+    border-spacing: 0; }
+    .resume table tr th {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 2px solid black; }
+    .resume table tr td {
+      padding: 10px;
+      border-bottom: 2px solid black; }
+    .resume table .left {
+      width: 55%; }
+    .resume table .right {
+      width: 45%;
+      margin-left: -3px; }
 
 footer {
   width: 100%;
