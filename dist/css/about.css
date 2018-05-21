@@ -115,7 +115,7 @@ main {
   margin: 15px;
   padding: 10px 15px;
   padding-right: 10px;
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("../img/bg_planks.png") repeat top left/128px;
+  background: linear-gradient(rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)), url("../img/bg_planks.png") repeat top left/128px;
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: #000;
@@ -280,7 +280,7 @@ main {
 .resume {
   width: 100%;
   padding-bottom: 15px;
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("../img/bg_cobblestone.png") repeat top left/128px; }
+  background: linear-gradient(rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)), url("../img/bg_cobblestone.png") repeat top left/128px; }
   .resume table {
     table-layout: fixed;
     width: 100%;
