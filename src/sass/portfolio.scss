@@ -1,0 +1,60 @@
+@import 'config';
+@import 'components/header';
+@import 'components/main';
+@import 'components/card';
+
+
+.houses {
+    width: 100%;
+
+    @media screen and (min-width: 1000px) {
+        width: calc(50% - 30px);
+    }
+
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+        padding-left: 0;
+        list-style: none;
+
+        @media screen and (min-width: 520px) {
+            height: 600px;
+        }
+
+
+        @media screen and (min-width: 770px) and (max-width: 1000px){
+            height: 400px;
+        }
+
+        li {
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+            padding: 5px;
+
+
+            img {
+                max-width: 200px;
+                display: block;
+                margin: auto;
+                border-radius: 3px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}
+
+.fanfics {
+    width: 100%;
+
+    @media screen and (min-width: 1000px) {
+        width: calc(50% - 30px);
+    }
+}
+
+@import 'components/footer';
+

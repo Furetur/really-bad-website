@@ -1,0 +1,26 @@
+@import 'config';
+@import 'components/header';
+@import 'components/main';
+@import 'components/card';
+
+.faq {
+    width: 100%;
+
+    @media screen and(min-width: 650px) {
+        width: 620px;
+        margin: auto;
+    }
+}
+
+#diamond {
+  position: relative;
+  bottom: 192px;
+  left: 154px;
+  width: 48px;
+  height: 48px;
+  background: $ore_diamond no-repeat top left / 48px;
+  cursor: $pickaxe, help;
+}
+
+@import 'components/footer';
+

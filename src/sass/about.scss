@@ -3,12 +3,14 @@
 @import 'components/main';
 @import 'components/card';
 
+.root {
+    justify-content: space-around;
+}
 
 .side {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: 15px;
     padding: 0;
 
     @media screen and (min-width: 850px) {
@@ -21,7 +23,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: 15px;
     padding: 0;
 
     @media screen and (min-width: 850px) {
@@ -98,7 +99,7 @@
                 display: list-item;
             }
         }
-        @media screen and (min-width: 600px) {
+        @media screen and (min-width: 750px) {
             .less-important {
                 display: list-item;
             }
@@ -115,7 +116,7 @@
             @media screen and (min-width: 500px) {
                 width: 50%;
             }
-            @media screen and (min-width: 600px) {
+            @media screen and (min-width: 750px) {
                 width: 33.3%;
             }
             @media screen and (min-width: 850px) {
@@ -172,6 +173,10 @@
         font-size: 1.17em;
         text-align: right;
     }
+
+    p {
+        line-height: 20px;
+    }
 }
 
 .resume {
@@ -182,6 +187,8 @@
         $cobblestone repeat top left / 128px;
 
     table {
+        table-layout: fixed;
+        width: 100%;
         margin-top: 15px;
         border-collapse: collapse;
         border-spacing: 0;
@@ -201,11 +208,11 @@
         }
 
         .left {
-            width: 55%;
+            width: 35%;
         }
 
         .right {
-            width: 45%;
+            width: 55%;
             margin-left: -3px;
         }
     }
