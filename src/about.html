@@ -119,20 +119,22 @@
   </footer>
 
   <script type="text/javascript">
-    const leaves = document.querySelector('#leaves');
-    const exes = document.querySelector('#exes');
-    const fil = document.querySelector('#fil');
-    const manga = document.querySelector('#manga');
-    const iq = document.querySelector('#iq');
-    onClick = () => {
+    'use strict';
+
+    var leaves = document.querySelector('#leaves');
+    var exes = document.querySelector('#exes');
+    var fil = document.querySelector('#fil');
+    var manga = document.querySelector('#manga');
+    var iq = document.querySelector('#iq');
+    onClick = function onClick() {
       fil.textContent = parseInt(fil.textContent) + 1;
       leaves.textContent = parseInt(leaves.textContent) + 1;
       exes.textContent = parseInt(exes.textContent) + 1;
-    }
-    onClick1 = () => {
+    };
+    onClick1 = function onClick1() {
       manga.textContent = parseInt(manga.textContent) + 1;
       iq.textContent = parseInt(iq.textContent) + 30;
-    }
+    };
   </script>
 </body>
 </html>
